@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import Menu from './pure/menu'
 import About from './pure/about'
+import Ml from './pure/ml';
 
 export default function Bio() {
 
@@ -30,7 +31,7 @@ export default function Bio() {
             case 'ml':
 
                 return (
-                  <div>ML section</div>
+                  <Ml fun={changeComponent}></Ml>
                 )
             case 'pproject':
 

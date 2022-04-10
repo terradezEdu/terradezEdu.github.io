@@ -27,143 +27,144 @@ const Ml = ({ fun }) =>{
                 </div>
 
                 <div className="col-sm-9" style={{backgroundColor: '#282c34', color: 'whitesmoke', padding:'15px'}}>
-                <div className="accordion accordion-flush" id="accordionFlushExample">
-                
-                    <div className="accordion-item">
-                        <h2 className="accordion-header" id="flush-headingOne">
-                        <button className="accordion-button collapsed" 
-                                type="button" data-bs-toggle="collapse" 
-                                data-bs-target="#flush-collapseOne" 
-                                aria-expanded="false" 
-                                aria-controls="flush-collapseOne"
-                                style={{backgroundColor: '#1d1f20d6', marginTop:'30px', color: 'whitesmoke'}}>
-                            <i className="bi bi-book-fill" style={{fontSize: '2rem'}}>
-                            </i>
-                            <h6 style={{marginLeft: '8px'}}>Education</h6>
-                        </button>
-                        </h2>
-                        <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                        <div className="accordion-body"
-                            style={{backgroundColor: '#282c34', color: 'whitesmoke'}}>
-                                <ul>
-                                <li style={{padding: '20px'}}>
-                                    <div className="d-flex align-items-center">
-                                        <div className="flex-shrink-0">
-                                        <p className="text-start">Bachelor's degree in Mathematics</p>
-                                        </div>
-                                        <div className="flex-shrink-0" style={{marginLeft: '30px'}}>
-                                            <img src={uv} 
-                                                 className='rounded-circle' 
-                                                 alt="uv logo" 
-                                                 style={{backgroundColor: 'white', width:'60px', height:'60px'}}/>
-                                        </div>
+                    
+                <div className="row row-cols-1 row-cols-md-3 g-4">
+                    <div className="col">
+                        <div className="card h-100"
+                             style={{backgroundColor: '#282c34'}}>
+                            <div className="card-body">
+                                <h5 className="card-title">Programming Languages</h5>
+                                <div className="progress">
+                                    <div className="progress-bar progress-bar-striped progress-bar-animated" 
+                                         role="progressbar" 
+                                         aria-valuenow="95" 
+                                         aria-valuemin="0" 
+                                         aria-valuemax="100" 
+                                         style={{width: '95%'}}>
+                                        Python
                                     </div>
-                                </li>
-
-                                    <li style={{padding: '20px'}}>
-                                        <div className="d-flex align-items-center">
-                                            <div className="flex-shrink-0">
-                                                <p className="text-start">Master's degree in Data Science</p>
-                                            </div>
-                                            <div className="flex-shrink-0" style={{marginLeft: '30px'}}>
-                                                <img src={uoc}  
-                                                    alt="uv logo" 
-                                                    style={{backgroundColor: 'white'}}/>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li style={{padding: '20px'}}>
-                                        <div className="d-flex align-items-center">
-                                            <div className="flex-shrink-0">
-                                                <p className="text-start">PhD student Information Technologies, Communications and Computing</p>
-                                            </div>
-                                            <div className="flex-shrink-0" style={{marginLeft: '30px'}}>
-                                                <img src={uv} 
-                                                    className='rounded-circle' 
-                                                    alt="uv logo" 
-                                                    style={{backgroundColor: 'white', width:'60px', height:'60px'}}/>
-                                            </div>
-        
-                                        </div>
-                                    </li>
-
-                                </ul>
+                                </div>
+                                <div className="progress" style={{marginTop: '10px'}}>
+                                    <div className="progress-bar progress-bar-striped progress-bar-animated" 
+                                         role="progressbar" 
+                                         aria-valuenow="75" 
+                                         aria-valuemin="0" 
+                                         aria-valuemax="100" 
+                                         style={{width: '75%'}}>
+                                        R
+                                    </div>
+                                </div>
+                                <div className="progress" style={{marginTop: '10px'}}>
+                                    <div className="progress-bar progress-bar-striped progress-bar-animated" 
+                                         role="progressbar" 
+                                         aria-valuenow="85" 
+                                         aria-valuemin="0" 
+                                         aria-valuemax="100" 
+                                         style={{width: '85%'}}>
+                                        SQL
+                                    </div>
+                                </div>
+                                <div className="progress" style={{marginTop: '10px'}}>
+                                    <div className="progress-bar progress-bar-striped progress-bar-animated bg-success" 
+                                         role="progressbar" 
+                                         aria-valuenow="50" 
+                                         aria-valuemin="0" 
+                                         aria-valuemax="100" 
+                                         style={{width: '50%'}}>
+                                        Java Script and React Js
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-
-                <div className="accordion-item">
-                    <h2 className="accordion-header" id="flush-headingTwo">
-                    <button className="accordion-button collapsed" 
-                            type="button" 
-                            data-bs-toggle="collapse" 
-                            data-bs-target="#flush-collapseTwo" 
-                            aria-expanded="false" 
-                            aria-controls="flush-collapseTwo"
-                            style={{backgroundColor: '#1d1f20d6', color: 'whitesmoke'}}
-                            >
-                        <i className="bi bi-translate" style={{fontSize: '2rem'}}></i>
-                        <h6 style={{marginLeft: '8px'}}>languages</h6>
-                    </button>
-                    </h2>
-                    <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                    <div className="accordion-body"
-                         style={{backgroundColor: '#282c34'}}>
-                         <ul>
-                                <li style={{padding: '10px'}}>
-                                    <div className="d-flex align-items-left">
-                                        <div className="flex-shrink-0">
-                                            <h6 style={{color:'whitesmoke'}}>Spanish: </h6>
+                    <div className="col">
+                        <div className="card h-100" 
+                             style={{backgroundColor: '#282c34'}}>
+                        <div className="card-body">
+                            <h5 className="card-title">ML Frameworks and Utilities</h5>
+                                <div className="progress">
+                                        <div className="progress-bar progress-bar-striped progress-bar-animated" 
+                                            role="progressbar" 
+                                            aria-valuenow="100" 
+                                            aria-valuemin="0" 
+                                            aria-valuemax="100" 
+                                            style={{width: '100%'}}>
+                                            Scikit-Learn
                                         </div>
-                                        <div className="d-flex align-items-left" style={{marginLeft: '15px'}}>
-                                        <span>
-                                            <i className="bi bi-star-fill" style={{color: 'yellow'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'yellow'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'yellow'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'yellow'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'yellow'}}></i> 
-                                        </span>
-                                        </div>
+                                </div>
+                                <div className="progress" style={{marginTop: '5px'}}>
+                                    <div className="progress-bar progress-bar-striped progress-bar-animated" 
+                                            role="progressbar" 
+                                            aria-valuenow="100" 
+                                            aria-valuemin="0" 
+                                            aria-valuemax="100" 
+                                            style={{width: '100%'}}>
+                                        Pandas
                                     </div>
-                                </li>
-                                <li style={{padding: '10px'}}>
-                                    <div className="d-flex align-items-left">
-                                        <div className="flex-shrink-0">
-                                            <h6 style={{color:'whitesmoke'}}>English: </h6>
-                                        </div>
-                                        <div className="d-flex align-items-left" style={{marginLeft: '15px'}}>
-                                        <span>
-                                            <i className="bi bi-star-fill" style={{color: 'yellow'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'yellow'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'yellow'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'white'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'white'}}></i> 
-                                        </span>
-                                        </div>
-                                        </div>
-                                </li>
-                                <li style={{padding: '10px'}}>
-                                    <div className="d-flex align-items-left">
-                                        <div className="flex-shrink-0">
-                                            <h6 style={{color:'whitesmoke'}}>French: </h6>
-                                        </div>
-                                        <div className="d-flex align-items-left" style={{marginLeft: '15px'}}>
-                                        <span>
-                                            <i className="bi bi-star-fill" style={{color: 'yellow'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'white'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'white'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'white'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'white'}}></i> 
-                                        </span>
-                                        </div>
-                                        </div>
-                                </li>
+                                </div>
+                                <div className="progress" style={{marginTop: '5px'}}>
+                                    <div className="progress-bar progress-bar-striped progress-bar-animated" 
+                                            role="progressbar" 
+                                            aria-valuenow="100" 
+                                            aria-valuemin="0" 
+                                            aria-valuemax="100" 
+                                            style={{width: '100%'}}>
+                                        Numpy
+                                    </div>
+                                </div>
+                                <div className="progress" style={{marginTop: '5px'}}>
+                                    <div className="progress-bar progress-bar-striped progress-bar-animated" 
+                                            role="progressbar" 
+                                            aria-valuenow="95" 
+                                            aria-valuemin="0" 
+                                            aria-valuemax="100" 
+                                            style={{width: '100%'}}>
+                                        StatsModels
+                                    </div>
+                                </div>
+                                <div className="progress" style={{marginTop: '5px'}}>
+                                    <div className="progress-bar progress-bar-striped progress-bar-animated" 
+                                            role="progressbar" 
+                                            aria-valuenow="95" 
+                                            aria-valuemin="0" 
+                                            aria-valuemax="100" 
+                                            style={{width: '95%'}}>
+                                        Caret
+                                    </div>
+                                </div>
+                                <div className="progress" style={{marginTop: '5px'}}>
+                                    <div className="progress-bar progress-bar-striped progress-bar-animated" 
+                                            role="progressbar" 
+                                            aria-valuenow="95" 
+                                            aria-valuemin="0" 
+                                            aria-valuemax="100" 
+                                            style={{width: '95%'}}>
+                                        Tidyverse
+                                    </div>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card h-100">
+                        <img src="..." className="card-img-top" alt="..."/>
+                        <div className="card-body">
+                            <h5 className="card-title">Card title</h5>
+                            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card h-100">
+                        <img src="..." className="card-img-top" alt="..."/>
+                        <div className="card-body">
+                            <h5 className="card-title">Card title</h5>
+                            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
 
-                                </ul>
-                    </div>
-                    </div>
-                </div>
-                </div>
                 </div>
             </div>
         </div>
