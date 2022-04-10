@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types';
-import avatar from '../Home/images/avatar.svg';
-import ml from './images/machine-learning.svg'
-import gear from './images/gears.png'
+import avatar from '../../Home/images/avatar.svg';
+import ml from '../images/machine-learning.svg'
+import gear from '../images/gears.png'
 
 const Menu = ({ fun}) =>{
   return (

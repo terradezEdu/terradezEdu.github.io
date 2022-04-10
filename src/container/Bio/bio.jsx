@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Menu from './menu'
+import Menu from './pure/menu'
 import About from './pure/about'
 
 export default function Bio() {
