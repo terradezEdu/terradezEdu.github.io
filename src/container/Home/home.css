@@ -1,0 +1,24 @@
+.container {
+    position: relative;
+    color: white;
+    max-width: 1920px
+    /*Note, you can change the color to your choice depending on your 
+    image and what color blends with it*/
+}
+
+.container::after {
+    content: "";
+    opacity: 0.8;
+    background: rgb(26, 31, 41) url("./images/mat.webp") no-repeat fixed top;
+    background-blend-mode: soft-light;
+    /* also change the blend mode to what suits you, from darken, to other 
+    many options as you deem fit*/
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+    
+}
