@@ -74,6 +74,74 @@ const Ml = ({ fun }) =>{
                                         Java Script and React Js
                                     </div>
                                 </div>
+                                <div className="progress" style={{marginTop: '10px'}}>
+                                    <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" 
+                                         role="progressbar" 
+                                         aria-valuenow="30" 
+                                         aria-valuemin="0" 
+                                         aria-valuemax="100" 
+                                         style={{width: '30%'}}>
+                                        C#-Unity
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card h-100"
+                             style={{backgroundColor: '#282c34'}}>
+                            <div className="card-body">
+                                <h5 className="card-title">ML Techniques</h5>
+                                <div className="progress">
+                                    <div className="progress-bar progress-bar-striped progress-bar-animated" 
+                                         role="progressbar" 
+                                         aria-valuenow="85" 
+                                         aria-valuemin="0" 
+                                         aria-valuemax="100" 
+                                         style={{width: '85%'}}>
+                                        Reinforcement Learning
+                                    </div>
+                                </div>
+                                <div className="progress" style={{marginTop: '10px'}}>
+                                    <div className="progress-bar progress-bar-striped progress-bar-animated" 
+                                         role="progressbar" 
+                                         aria-valuenow="80" 
+                                         aria-valuemin="0" 
+                                         aria-valuemax="100" 
+                                         style={{width: '80%'}}>
+                                        Deep Learning
+                                    </div>
+                                </div>
+                                <div className="progress" style={{marginTop: '10px'}}>
+                                    <div className="progress-bar progress-bar-striped progress-bar-animated" 
+                                         role="progressbar" 
+                                         aria-valuenow="75" 
+                                         aria-valuemin="0" 
+                                         aria-valuemax="100" 
+                                         style={{width: '75%'}}>
+                                        Time Series analysis and Forecasting
+                                    </div>
+                                </div>
+                                <div className="progress" style={{marginTop: '10px'}}>
+                                    <div className="progress-bar progress-bar-striped progress-bar-animated" 
+                                         role="progressbar" 
+                                         aria-valuenow="60" 
+                                         aria-valuemin="0" 
+                                         aria-valuemax="100" 
+                                         style={{width: '60%'}}>
+                                        Unsupervised Learning
+                                    </div>
+                                </div>
+                                <div className="progress" style={{marginTop: '10px'}}>
+                                    <div className="progress-bar progress-bar-striped progress-bar-animated bg-success" 
+                                         role="progressbar" 
+                                         aria-valuenow="50" 
+                                         aria-valuemin="0" 
+                                         aria-valuemax="100" 
+                                         style={{width: '50%'}}>
+                                        Natural Languages Processing (NLP)
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -81,85 +149,47 @@ const Ml = ({ fun }) =>{
                         <div className="card h-100" 
                              style={{backgroundColor: '#282c34'}}>
                         <div className="card-body">
-                            <h5 className="card-title">ML Frameworks and Utilities</h5>
+                            <h5 className="card-title">Cloud Plataforms and Deployments Tools</h5>
                                 <div className="progress">
                                         <div className="progress-bar progress-bar-striped progress-bar-animated" 
                                             role="progressbar" 
-                                            aria-valuenow="100" 
+                                            aria-valuenow="60" 
                                             aria-valuemin="0" 
                                             aria-valuemax="100" 
-                                            style={{width: '100%'}}>
-                                            Scikit-Learn
+                                            style={{width: '60%'}}>
+                                          Amazon Web Services
                                         </div>
                                 </div>
                                 <div className="progress" style={{marginTop: '5px'}}>
                                     <div className="progress-bar progress-bar-striped progress-bar-animated" 
                                             role="progressbar" 
-                                            aria-valuenow="100" 
+                                            aria-valuenow="50" 
                                             aria-valuemin="0" 
                                             aria-valuemax="100" 
-                                            style={{width: '100%'}}>
-                                        Pandas
+                                            style={{width: '50%'}}>
+                                        Google Coud
                                     </div>
                                 </div>
                                 <div className="progress" style={{marginTop: '5px'}}>
                                     <div className="progress-bar progress-bar-striped progress-bar-animated" 
                                             role="progressbar" 
-                                            aria-valuenow="100" 
+                                            aria-valuenow="70" 
                                             aria-valuemin="0" 
                                             aria-valuemax="100" 
-                                            style={{width: '100%'}}>
-                                        Numpy
+                                            style={{width: '70%'}}>
+                                        Docker
                                     </div>
                                 </div>
                                 <div className="progress" style={{marginTop: '5px'}}>
-                                    <div className="progress-bar progress-bar-striped progress-bar-animated" 
+                                    <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" 
                                             role="progressbar" 
-                                            aria-valuenow="95" 
+                                            aria-valuenow="40" 
                                             aria-valuemin="0" 
                                             aria-valuemax="100" 
-                                            style={{width: '100%'}}>
-                                        StatsModels
+                                            style={{width: '40%'}}>
+                                        Kubernetes
                                     </div>
                                 </div>
-                                <div className="progress" style={{marginTop: '5px'}}>
-                                    <div className="progress-bar progress-bar-striped progress-bar-animated" 
-                                            role="progressbar" 
-                                            aria-valuenow="95" 
-                                            aria-valuemin="0" 
-                                            aria-valuemax="100" 
-                                            style={{width: '95%'}}>
-                                        Caret
-                                    </div>
-                                </div>
-                                <div className="progress" style={{marginTop: '5px'}}>
-                                    <div className="progress-bar progress-bar-striped progress-bar-animated" 
-                                            role="progressbar" 
-                                            aria-valuenow="95" 
-                                            aria-valuemin="0" 
-                                            aria-valuemax="100" 
-                                            style={{width: '95%'}}>
-                                        Tidyverse
-                                    </div>
-                                </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card h-100">
-                        <img src="..." className="card-img-top" alt="..."/>
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card h-100">
-                        <img src="..." className="card-img-top" alt="..."/>
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
                         </div>
                     </div>

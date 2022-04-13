@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light');
+
+.title {
+    font-family: 'Shadows Into Light', cursive;;
+    font-size: 90px;
+}
 .container {
+    padding: 0%;
     position: relative;
     color: white;
     max-width: 1920px

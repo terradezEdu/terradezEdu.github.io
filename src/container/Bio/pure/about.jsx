@@ -50,10 +50,10 @@ const About = ({ fun }) =>{
                                 <ul>
                                 <li style={{padding: '20px'}}>
                                     <div className="d-flex align-items-center">
-                                        <div className="flex-shrink-0">
+                                        <div className="d-flex-shrink-0">
                                         <p className="text-start">Bachelor's degree in Mathematics</p>
                                         </div>
-                                        <div className="flex-shrink-0" style={{marginLeft: '30px'}}>
+                                        <div className="d-flex-shrink-0" style={{marginLeft: '30px'}}>
                                             <img src={uv} 
                                                  className='rounded-circle' 
                                                  alt="uv logo" 
@@ -64,7 +64,7 @@ const About = ({ fun }) =>{
 
                                     <li style={{padding: '20px'}}>
                                         <div className="d-flex align-items-center">
-                                            <div className="flex-shrink-0">
+                                            <div className="d-flex-shrink-0">
                                                 <p className="text-start">Master's degree in Data Science</p>
                                             </div>
                                             <div className="flex-shrink-0" style={{marginLeft: '30px'}}>
@@ -76,8 +76,8 @@ const About = ({ fun }) =>{
                                     </li>
                                     <li style={{padding: '20px'}}>
                                         <div className="d-flex align-items-center">
-                                            <div className="flex-shrink-0">
-                                                <p className="text-start">PhD student Information Technologies, Communications and Computing</p>
+                                            <div className="d-flex-shrink-0">
+                                                <p className="text-start">PhD student in Information Technologies, Communications and Computing</p>
                                             </div>
                                             <div className="flex-shrink-0" style={{marginLeft: '30px'}}>
                                                 <img src={uv} 

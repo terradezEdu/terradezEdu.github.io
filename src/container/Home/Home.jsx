@@ -11,12 +11,15 @@ export default function Home() {
          className='container'
     >
         <img src={avatar} 
-             className='img-fluid rounded-circle  center mx-auto d-block' 
+             className=' rounded-circle mx-auto d-none d-md-block'  
              alt='avatar'
-             style={{maxWidth: '15%'}}
+             style={{maxWidth: '10%'}}
              />
         <div className='.container-md'>
-        <h1 style={{color:'whitesmoke'}}>Data Scientist</h1>
+        <span className='title'>
+          Data Scientist
+        </span>
+        
         </div>
     </div>
 

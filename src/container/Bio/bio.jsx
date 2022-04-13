@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import Menu from './pure/menu'
 import About from './pure/about'
 import Ml from './pure/ml';
+import PersonalProjects from './pure/personalProjects';
 
 export default function Bio() {
 
@@ -12,7 +13,7 @@ export default function Bio() {
   }
 
   return (
-    <div className='container d-flex'>
+    <div className='container d-flex' style={{marginTop: '15px', padding: '0%'}}>
       {(() => {
           switch (componentShow) {
 
@@ -36,7 +37,7 @@ export default function Bio() {
             case 'pproject':
 
                 return (
-                  <div>Personal Projects section</div>
+                  <PersonalProjects fun={changeComponent}></PersonalProjects>
                 )
 
             default:
