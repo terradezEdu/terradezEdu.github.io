@@ -22,7 +22,7 @@ export default function Navbar() {
                 <a className="nav-link active" aria-current="page" href="#bio">Bio</a>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" href="#">Researchs</a>
+                <a className="nav-link" href="#research">Research</a>
                 </li>
                 <li className="nav-item">
                 <a className="nav-link" href="#">Projects</a>

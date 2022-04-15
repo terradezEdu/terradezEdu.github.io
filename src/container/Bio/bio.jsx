@@ -13,7 +13,9 @@ export default function Bio() {
   }
 
   return (
-    <div className='container d-flex' style={{marginTop: '15px', padding: '0%'}}>
+    <div className='container d-flex'
+         id='bio'
+         style={{marginTop: '15px', padding: '0%'}}>
       {(() => {
           switch (componentShow) {
 
