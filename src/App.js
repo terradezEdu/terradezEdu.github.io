@@ -1,11 +1,24 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from "react";
 import './App.css';
 import Navbar from './container/Navbar/navbar';
 import Home from './container/Home/Home';
 import Bio from './container/Bio/bio';
 import Researchs from './container/Researchs/researchs';
+import ProjectsL from './container/Projects/projects_large';
+import ProjectsS from './container/Projects/projects_small';
 
-function App() {
+export default function App() {
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 650);
+
+  const updateMedia = () => {
+    setDesktop(window.innerWidth > 650);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  });
+
   return (
     <div className="App">
       <header>
@@ -18,8 +31,13 @@ function App() {
       <div className='float-left'>
         <Researchs></Researchs>
       </div>
+      <div>
+        {isDesktop ? (
+          <ProjectsL></ProjectsL>
+        ) : (
+          <ProjectsS></ProjectsS>
+        )}
+      </div>
     </div>
   );
 }
-
-export default App;
