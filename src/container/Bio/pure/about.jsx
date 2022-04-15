@@ -8,7 +8,7 @@ const About = ({ fun }) =>{
       
     return (
        
-        <div className="container">
+        <div className="container-fluid">
             <div className="row">
                 <div className="col-sm-3">
                     <div className="card" 
@@ -28,7 +28,7 @@ const About = ({ fun }) =>{
                     </div>
                 </div>
 
-                <div className="col-sm-9" style={{backgroundColor: '#282c34', color: 'whitesmoke', padding:'15px'}}>
+                <div className="col-sm-9" style={{backgroundColor: '#282c34', color: 'whitesmoke'}}>
                 <div className="accordion accordion-flush" id="accordionFlushExample">
                 
                     <div className="accordion-item">
