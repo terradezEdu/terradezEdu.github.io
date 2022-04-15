@@ -6,6 +6,7 @@ import Bio from './container/Bio/bio';
 import Researchs from './container/Researchs/researchs';
 import ProjectsL from './container/Projects/projects_large';
 import ProjectsS from './container/Projects/projects_small';
+import Footer from "./container/footer/footer";
 
 export default function App() {
   const [isDesktop, setDesktop] = useState(window.innerWidth > 650);
@@ -38,6 +39,9 @@ export default function App() {
           <ProjectsS></ProjectsS>
         )}
       </div>
+      <footer>
+        <Footer></Footer>     
+      </footer>
     </div>
   );
 }

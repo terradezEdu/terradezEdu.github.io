@@ -8,7 +8,7 @@ import './projects.css'
 export default function ProjectsL() {
 
     return (
-        <div className='text-center'
+        <div id='projects' className='text-center'
              style={{backgroundColor: 'white', padding:'0px'}}>
              
             <div className='text-center border-5 border-dark'
