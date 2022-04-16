@@ -8,12 +8,12 @@ const About = ({ fun }) =>{
       
     return (
        
-        <div className="container-fluid">
-            <div className="row">
-                <div className="col-sm-3">
-                    <div className="card" 
+        <div className='container-fluid'>
+            <div className='row'>
+                <div className='col-sm-3'>
+                    <div className='card' 
                         style={{backgroundColor: '#282c34'}}>
-                        <h3 className="card-title"
+                        <h3 className='card-title'
                             style={{color: 'whitesmoke'}}>
                             About Me
                         </h3>
@@ -22,67 +22,67 @@ const About = ({ fun }) =>{
                                 alt='avatar'
                                 style={{maxWidth: '25%'}}
                         />
-                        <div className="card-body">
-                        <button onClick={() => fun('menu')} className="btn btn-primary">Back</button>
+                        <div className='card-body'>
+                        <button onClick={() => fun('menu')} className='btn btn-primary'>Back</button>
                         </div>
                     </div>
                 </div>
 
-                <div className="col-sm-9" style={{backgroundColor: '#282c34', color: 'whitesmoke'}}>
-                <div className="accordion accordion-flush" id="accordionFlushExample">
+                <div className='col-sm-9' style={{backgroundColor: '#282c34', color: 'whitesmoke'}}>
+                <div className='accordion accordion-flush' id='accordionFlushExample'>
                 
-                    <div className="accordion-item">
-                        <h2 className="accordion-header" id="flush-headingOne">
-                        <button className="accordion-button collapsed" 
-                                type="button" data-bs-toggle="collapse" 
-                                data-bs-target="#flush-collapseOne" 
-                                aria-expanded="false" 
-                                aria-controls="flush-collapseOne"
+                    <div className='accordion-item'>
+                        <h2 className='accordion-header' id='flush-headingOne'>
+                        <button className='accordion-button collapsed' 
+                                type='button' data-bs-toggle='collapse' 
+                                data-bs-target='#flush-collapseOne' 
+                                aria-expanded='false' 
+                                aria-controls='flush-collapseOne'
                                 style={{backgroundColor: '#1d1f20d6', marginTop:'30px', color: 'whitesmoke'}}>
-                            <i className="bi bi-book-fill" style={{fontSize: '2rem'}}>
+                            <i className='bi bi-book-fill' style={{fontSize: '2rem'}}>
                             </i>
                             <h6 style={{marginLeft: '8px'}}>Education</h6>
                         </button>
                         </h2>
-                        <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                        <div className="accordion-body"
+                        <div id='flush-collapseOne' className='accordion-collapse collapse' aria-labelledby='flush-headingOne' data-bs-parent='#accordionFlushExample'>
+                        <div className='accordion-body'
                             style={{backgroundColor: '#282c34', color: 'whitesmoke'}}>
                                 <ul>
                                 <li style={{padding: '20px'}}>
-                                    <div className="d-flex align-items-center">
-                                        <div className="d-flex-shrink-0">
-                                        <p className="text-start">Bachelor's degree in Mathematics</p>
+                                    <div className='d-flex align-items-center'>
+                                        <div className='d-flex-shrink-0'>
+                                        <p className='text-start'>Bachelor's degree in Mathematics</p>
                                         </div>
-                                        <div className="d-flex-shrink-0" style={{marginLeft: '30px'}}>
+                                        <div className='d-flex-shrink-0' style={{marginLeft: '30px'}}>
                                             <img src={uv} 
                                                  className='rounded-circle' 
-                                                 alt="uv logo" 
+                                                 alt='uv logo' 
                                                  style={{backgroundColor: 'white', width:'60px', height:'60px'}}/>
                                         </div>
                                     </div>
                                 </li>
 
                                     <li style={{padding: '20px'}}>
-                                        <div className="d-flex align-items-center">
-                                            <div className="d-flex-shrink-0">
-                                                <p className="text-start">Master's degree in Data Science</p>
+                                        <div className='d-flex align-items-center'>
+                                            <div className='d-flex-shrink-0'>
+                                                <p className='text-start'>Master's degree in Data Science</p>
                                             </div>
-                                            <div className="flex-shrink-0" style={{marginLeft: '30px'}}>
+                                            <div className='flex-shrink-0' style={{marginLeft: '30px'}}>
                                                 <img src={uoc}  
-                                                    alt="uv logo" 
+                                                    alt='uv logo' 
                                                     style={{backgroundColor: 'white'}}/>
                                             </div>
                                         </div>
                                     </li>
                                     <li style={{padding: '20px'}}>
-                                        <div className="d-flex align-items-center">
-                                            <div className="d-flex-shrink-0">
-                                                <p className="text-start">PhD student in Information Technologies, Communications and Computing</p>
+                                        <div className='d-flex align-items-center'>
+                                            <div className='d-flex-shrink-0'>
+                                                <p className='text-start'>PhD student in Information Technologies, Communications and Computing</p>
                                             </div>
-                                            <div className="flex-shrink-0" style={{marginLeft: '30px'}}>
+                                            <div className='flex-shrink-0' style={{marginLeft: '30px'}}>
                                                 <img src={uv} 
                                                     className='rounded-circle' 
-                                                    alt="uv logo" 
+                                                    alt='uv logo' 
                                                     style={{backgroundColor: 'white', width:'60px', height:'60px'}}/>
                                             </div>
         
@@ -94,68 +94,68 @@ const About = ({ fun }) =>{
                         </div>
                     </div>
 
-                <div className="accordion-item">
-                    <h2 className="accordion-header" id="flush-headingTwo">
-                    <button className="accordion-button collapsed" 
-                            type="button" 
-                            data-bs-toggle="collapse" 
-                            data-bs-target="#flush-collapseTwo" 
-                            aria-expanded="false" 
-                            aria-controls="flush-collapseTwo"
+                <div className='accordion-item'>
+                    <h2 className='accordion-header' id='flush-headingTwo'>
+                    <button className='accordion-button collapsed' 
+                            type='button' 
+                            data-bs-toggle='collapse' 
+                            data-bs-target='#flush-collapseTwo' 
+                            aria-expanded='false' 
+                            aria-controls='flush-collapseTwo'
                             style={{backgroundColor: '#1d1f20d6', color: 'whitesmoke'}}
                             >
-                        <i className="bi bi-translate" style={{fontSize: '2rem'}}></i>
+                        <i className='bi bi-translate' style={{fontSize: '2rem'}}></i>
                         <h6 style={{marginLeft: '8px'}}>languages</h6>
                     </button>
                     </h2>
-                    <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                    <div className="accordion-body"
+                    <div id='flush-collapseTwo' className='accordion-collapse collapse' aria-labelledby='flush-headingTwo' data-bs-parent='#accordionFlushExample'>
+                    <div className='accordion-body'
                          style={{backgroundColor: '#282c34'}}>
                          <ul>
                                 <li style={{padding: '10px'}}>
-                                    <div className="d-flex align-items-left">
-                                        <div className="flex-shrink-0">
+                                    <div className='d-flex align-items-left'>
+                                        <div className='flex-shrink-0'>
                                             <h6 style={{color:'whitesmoke'}}>Spanish: </h6>
                                         </div>
-                                        <div className="d-flex align-items-left" style={{marginLeft: '15px'}}>
+                                        <div className='d-flex align-items-left' style={{marginLeft: '15px'}}>
                                         <span>
-                                            <i className="bi bi-star-fill" style={{color: 'yellow'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'yellow'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'yellow'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'yellow'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'yellow'}}></i> 
+                                            <i className='bi bi-star-fill' style={{color: 'yellow'}}></i>  
+                                            <i className='bi bi-star-fill' style={{color: 'yellow'}}></i>  
+                                            <i className='bi bi-star-fill' style={{color: 'yellow'}}></i>  
+                                            <i className='bi bi-star-fill' style={{color: 'yellow'}}></i>  
+                                            <i className='bi bi-star-fill' style={{color: 'yellow'}}></i> 
                                         </span>
                                         </div>
                                     </div>
                                 </li>
                                 <li style={{padding: '10px'}}>
-                                    <div className="d-flex align-items-left">
-                                        <div className="flex-shrink-0">
+                                    <div className='d-flex align-items-left'>
+                                        <div className='flex-shrink-0'>
                                             <h6 style={{color:'whitesmoke'}}>English: </h6>
                                         </div>
-                                        <div className="d-flex align-items-left" style={{marginLeft: '15px'}}>
+                                        <div className='d-flex align-items-left' style={{marginLeft: '15px'}}>
                                         <span>
-                                            <i className="bi bi-star-fill" style={{color: 'yellow'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'yellow'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'yellow'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'white'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'white'}}></i> 
+                                            <i className='bi bi-star-fill' style={{color: 'yellow'}}></i>  
+                                            <i className='bi bi-star-fill' style={{color: 'yellow'}}></i>  
+                                            <i className='bi bi-star-fill' style={{color: 'yellow'}}></i>  
+                                            <i className='bi bi-star-fill' style={{color: 'white'}}></i>  
+                                            <i className='bi bi-star-fill' style={{color: 'white'}}></i> 
                                         </span>
                                         </div>
                                         </div>
                                 </li>
                                 <li style={{padding: '10px'}}>
-                                    <div className="d-flex align-items-left">
-                                        <div className="flex-shrink-0">
+                                    <div className='d-flex align-items-left'>
+                                        <div className='flex-shrink-0'>
                                             <h6 style={{color:'whitesmoke'}}>French: </h6>
                                         </div>
-                                        <div className="d-flex align-items-left" style={{marginLeft: '15px'}}>
+                                        <div className='d-flex align-items-left' style={{marginLeft: '15px'}}>
                                         <span>
-                                            <i className="bi bi-star-fill" style={{color: 'yellow'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'white'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'white'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'white'}}></i>  
-                                            <i className="bi bi-star-fill" style={{color: 'white'}}></i> 
+                                            <i className='bi bi-star-fill' style={{color: 'yellow'}}></i>  
+                                            <i className='bi bi-star-fill' style={{color: 'white'}}></i>  
+                                            <i className='bi bi-star-fill' style={{color: 'white'}}></i>  
+                                            <i className='bi bi-star-fill' style={{color: 'white'}}></i>  
+                                            <i className='bi bi-star-fill' style={{color: 'white'}}></i> 
                                         </span>
                                         </div>
                                         </div>
