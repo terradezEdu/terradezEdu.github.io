@@ -13,12 +13,12 @@ const PersonalProjects = ({ fun }) =>{
 
     return (
        
-        <div className="container-fluid">
-            <div className="row">
-                <div className="col-sm-3">
-                    <div className="card" 
+        <div className='container-fluid'>
+            <div className='row'>
+                <div className='col-sm-3'>
+                    <div className='card' 
                         style={{backgroundColor: '#282c34'}}>
-                        <h3 className="card-title"
+                        <h3 className='card-title'
                             style={{color: 'whitesmoke'}}>
                             Personal Projects
                         </h3>
@@ -27,23 +27,23 @@ const PersonalProjects = ({ fun }) =>{
                                 alt='avatar'
                                 style={{maxWidth: '25%'}}
                         />
-                        <div className="card-body">
-                        <button onClick={() => fun('menu')} className="btn btn-primary">Back</button>
+                        <div className='card-body'>
+                        <button onClick={() => fun('menu')} className='btn btn-primary'>Back</button>
                         </div>
                     </div>
                 </div>
 
-                <div className="col-sm-9" style={{backgroundColor: '#282c34', color: 'whitesmoke', padding:'15px'}}>
+                <div className='col-sm-9' style={{backgroundColor: '#282c34', color: 'whitesmoke', padding:'15px'}}>
                     
-                <div className="row row-cols-1 row-cols-md-3 g-4">
-                    <div className="col">
-                        <div className="card h-100"
+                <div className='row row-cols-1 row-cols-md-3 g-4'>
+                    <div className='col'>
+                        <div className='card h-100'
                              style={{backgroundColor: '#282c34'}}
                              onMouseEnter={() => setIsShownPHD(true)}
                             onMouseLeave={() => setIsShownPHD(false)}>
 
                             <div className='card-header'>
-                                <h5 className="card-title">PhD Thesis</h5>
+                                <h5 className='card-title'>PhD Thesis</h5>
                                 <img src={phd} 
                                 className='img-fluid center mx-auto d-block' 
                                 alt='avatar'
@@ -55,20 +55,20 @@ const PersonalProjects = ({ fun }) =>{
                                 <h6> Pedestrian Simulator with Deep Learning</h6>
                             </div>
                             {isShownPHD && (
-                                <div className="alert alert-light" role='alert'>
+                                <div className='alert alert-light' role='alert'>
                                     The hardest project so far!
                                 </div>
                             )}
                         </div>
                     </div>
-                    <div className="col">
-                        <div className="card h-100"
+                    <div className='col'>
+                        <div className='card h-100'
                              style={{backgroundColor: '#282c34'}}
                              onMouseEnter={() => setIsShownFstack(true)}
                             onMouseLeave={() => setIsShownFstack(false)}>
 
-                            <div className="card-header">
-                                <h5 className="card-title">Full Stack Developer Learning Path</h5>
+                            <div className='card-header'>
+                                <h5 className='card-title'>Full Stack Developer Learning Path</h5>
                                 <img src={fstack} 
                                 className='img-fluid center mx-auto d-block' 
                                 alt='avatar'
@@ -80,21 +80,21 @@ const PersonalProjects = ({ fun }) =>{
                                 <h6>Trying to combine my data scientist skills with web development to offer a complete solution </h6>
                             </div>
                             {isShownFstack && (
-                                <div className="alert alert-light" role="alert">
+                                <div className='alert alert-light' role='alert'>
                                     Custom dashboard for a time series analysis
                                 </div>
                             )}
                         </div>
                         
                     </div>
-                    <div className="col">
-                        <div className="card h-100"
+                    <div className='col'>
+                        <div className='card h-100'
                              style={{backgroundColor: '#282c34'}}
                              onMouseEnter={() => setIsShownRock(true)}
                             onMouseLeave={() => setIsShownRock(false)}>
 
-                            <div className="card-header">
-                                <h5 className="card-title">Rock Climbing</h5>
+                            <div className='card-header'>
+                                <h5 className='card-title'>Rock Climbing</h5>
                                 <img src={rock} 
                                 className='img-fluid center mx-auto d-block' 
                                 alt='avatar'
@@ -106,7 +106,7 @@ const PersonalProjects = ({ fun }) =>{
                                 <h6>I love the mountain and especially the sport climbing. </h6>
                             </div>
                             {isShownRock && (
-                                <div className="alert alert-light" role="alert">
+                                <div className='alert alert-light' role='alert'>
                                     Triying to send my first 8a this year.
                                 </div>
                             )}
