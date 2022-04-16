@@ -52,9 +52,10 @@ export default function Researchs() {
                       <img  className='float-end  mx-auto d-none d-md-block' src={crowd} alt='crowd'
                           style={{maxWidth: '15%'}}
                       />
-                       <h4 style={{marginTop: '20px', marginLeft: '25px', marginRight: '15px'}}>The research of my thesis focuses on deploying a Crowd Simulator which contains all the 
-                       problems related to pathfinders optimization, simulation of complicated behaviours with artifical neuronal networks (ANN) and the scale of 
-                       these problems in terms of computational cost and time are giant (crowds can be more than 100 ANN trining at the same time)</h4>
+                       <h4 style={{marginTop: '20px', marginLeft: '25px', marginRight: '15px'}}>
+                       The research of my thesis focuses on deploying a Crowd Simulator 
+                       which contains all the problems related to pathfinders optimization and simulation of complicated behaviours with Artificial Neuronal 
+                       Networks (ANN). The most challenging problem is training more than 100 ANN simultaneously.</h4>
                       
                       <img  className='float-start rounded-circle mx-auto d-none d-lg-block' src={unity} alt='unity'
                           style={{maxWidth: '3%', marginTop: '30px'}}
@@ -65,8 +66,8 @@ export default function Researchs() {
                       <span>
                         <h4 style={{marginTop: '30px', marginLeft: '30px', marginRight: '15px'}}>To create this Crowd Simulator, we use the graphic motor Unity to create a 
                         complex environment where the agents (ANN) have to solve it. The ANNs are developed with the framework Pytorch following the 
-                        state of the art in deep reinforcement learning (DRL) such as DDPG, D4PG, PPO and the classic DQN as a benchmark. 
-                        More info in my <a href="https://github.com/terradezEdu/phd" style={{color: 'whitesmoke'}}>GitHub</a> </h4>
+                        state of the art in Deep Reinforcement Learning (DRL) such as DDPG, D4PG, PPO and the classic DQN as a benchmark. 
+                        Follow me in my <a href="https://github.com/terradezEdu/phd" style={{color: 'whitesmoke'}}>GitHub.</a> </h4>
                       </span>
                          
                     </span>

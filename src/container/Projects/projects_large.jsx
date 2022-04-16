@@ -28,7 +28,7 @@ export default function ProjectsL() {
                     <div className='carousel-item active'>
                         <div className='container-fluid'>
                             <img src={experis} 
-                                    className='float-center mx-auto d-none d-md-block' 
+                                    className='float-center mx-auto d-none d-sm-block' 
                                     alt='Experis'
                                     style={{maxWitdh:'150px', maxHeight:'150px'}}
                                     />
@@ -39,7 +39,7 @@ export default function ProjectsL() {
                                     alt='Telefónica'
                                     style={{maxWitdh:'600px', maxHeight:'500px'}}
                                     />
-                            <div className='carousel-caption d-none d-md-block' style={{marginTop: '15px', color: 'whitesmoke'}}>
+                            <div className='carousel-caption d-none d-sm-block' style={{marginTop: '15px', color: 'whitesmoke'}}>
                                 <h4>Global Operations</h4>
                                 <h5>Data Scientist - Customer Experience</h5>
                                 <span>
@@ -49,7 +49,7 @@ export default function ProjectsL() {
                                     </h6>
                                     <h6>
                                         Crowd sourcing data analysis with NPL to identify weak points in the mobile
-                                        network
+                                        network.
                                     </h6>
                                 </span>
                             </div>
@@ -61,18 +61,18 @@ export default function ProjectsL() {
                     <div className='carousel-item'>
                             <div className='container-fluid'>
                                 <img src={experis} 
-                                        className='float-center  mx-auto d-none d-md-block' 
+                                        className='float-center  mx-auto d-none d-sm-block' 
                                         alt='Experis'
                                         style={{witdh:'150px', height:'150px'}}
                                         />
                             </div>
                             <div>
                                 <img src={telefonica} 
-                                        className='float-center  mx-auto d-none d-md-block' 
+                                        className='float-center  mx-auto d-none d-sm-block' 
                                         alt='Telefónica'
                                         style={{witdh:'600px', height:'500px'}}
                                         />
-                                <div className='carousel-caption d-none d-md-block' style={{marginTop: '15px', color: 'whitesmoke'}}>
+                                <div className='carousel-caption d-none d-sm-block' style={{marginTop: '15px', color: 'whitesmoke'}}>
                                     <h4>Global Operations</h4>
                                     <h5>Data Scientist - Churm Prediction</h5>
                                     <span>
@@ -95,18 +95,18 @@ export default function ProjectsL() {
                     <div className='carousel-item'>
                             <div className='container-fluid'>
                                 <img src={experis} 
-                                        className='float-center  mx-auto d-none d-md-block' 
+                                        className='float-center  mx-auto d-none d-sm-block' 
                                         alt='Experis'
                                         style={{witdh:'150px', height:'150px'}}
                                         />
                             </div>
                             <div>
                                 <img src={telefonica} 
-                                        className='float-center  mx-auto d-none d-md-block' 
+                                        className='float-center  mx-auto d-none d-sm-block' 
                                         alt='Telefónica'
                                         style={{witdh:'600px', height:'500px'}}
                                         />
-                                <div className='carousel-caption d-none d-md-block' style={{marginTop: '15px', color: 'whitesmoke'}}>
+                                <div className='carousel-caption d-none d-sm-block' style={{marginTop: '15px', color: 'whitesmoke'}}>
                                     <h4>Global Operations</h4>
                                     <h5>Data Scientist - Mobile Network</h5>
                                     <span>
@@ -122,24 +122,23 @@ export default function ProjectsL() {
                     <div className='carousel-item'>
                             <div className='container-fluid'>
                                 <img src={saptools} 
-                                        className='float-center rounded-circle mx-auto d-none d-md-block' 
+                                        className='float-center rounded-circle mx-auto d-none d-sm-block' 
                                         alt='Saptools'
                                         style={{witdh:'150px', height:'150px'}}
                                         />
                             </div>
                             <div className='container-fluid'>
                                 <img src={nestle} 
-                                        className='float-center  mx-auto d-none d-md-block' 
+                                        className='float-center  mx-auto d-none d-sm-block' 
                                         alt='Telefónica'
                                         style={{witdh:'600px', height:'500px'}}
                                         />
-                                <div className='carousel-caption d-none d-md-block' style={{marginTop: '15px', color: 'black'}}>
-                                    <h4>Global Operations</h4>
-                                    <h5>Data Scientist - Mobile Network</h5>
+                                <div className='carousel-caption d-none d-sm-block' style={{marginTop: '15px', color: 'black'}}>
+                                    <h4>Nestlé</h4>
+                                    <h5>Data Scientist - E-commerce</h5>
                                     <span>
                                         <h6>
-                                        Issues Prediction in the mobile network using deep learning algorithms
-                                        (Autoencoders + XGBOOST).
+                                            Time series analysis and causal impact of promotional events.
                                         </h6>
                                     </span>
                                 </div>
@@ -158,7 +157,7 @@ export default function ProjectsL() {
         </div>
     )
 }
-<div className='carousel-caption d-none d-md-block' style={{ color: 'black'}}>
+<div className='carousel-caption d-none d-sm-block' style={{ color: 'black'}}>
                                     <h4>E-commerce</h4>
                                     <h5>Data Scientist - Pormotional event analysis</h5>
                                     <span>

@@ -9,10 +9,10 @@ import ProjectsS from './container/Projects/projects_small';
 import Footer from "./container/footer/footer";
 
 export default function App() {
-  const [isDesktop, setDesktop] = useState(window.innerWidth > 650);
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 800);
 
   const updateMedia = () => {
-    setDesktop(window.innerWidth > 650);
+    setDesktop(window.innerWidth > 800);
   };
 
   useEffect(() => {

@@ -34,14 +34,14 @@ const Menu = ({ fun}) =>{
             <h3 className='card-title'
               style={{color: 'whitesmoke'}}>Machine Learning</h3>
             <img src={ml}
-                className='img-fluid   center mx-auto d-block' 
+                className='img-fluid center mx-auto d-block' 
                 alt='ml'
-                style={{maxWidth: '25%'}}
+                style={{maxWidth: '18%'}}
                 />
             <div className='card-body'>
               <p style={{color: 'whitesmoke'}}>
-              I have been deploying machine learning models in different areas such as customer experience, marketing, demand planning,
-              mobile networks and energy markets 
+                I have been deploying machine learning models in different areas such as customer experience, marketing, demand planning,
+                mobile networks and energy markets. 
               </p>
               <button onClick={() => fun('ml')} className='btn btn-primary'> ML Skills</button>
             </div>
@@ -55,14 +55,13 @@ const Menu = ({ fun}) =>{
             <img src={gear}
                 className='img-fluid   center mx-auto d-block' 
                 alt='projects'
-                style={{maxWidth: '16%'}}
+                style={{maxWidth: '17%'}}
                 />
             <div className='card-body'>
               <p style={{color: 'whitesmoke'}}>
-                I am a mathematician and data science lover, especially in Deep Reinforcement Learning and
-                videogames. 
+                Look at the personal projects that I am developing in my free time. 
               </p>
-              <button onClick={() => fun('pproject')} className='btn btn-primary'>Projects</button>
+              <button onClick={() => fun('pproject')} className='btn btn-primary' style={{marginTop: '16px'}}>My Personal Projects</button>
             </div>
           </div>
         </div>
