@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.36e3ed75.css",
-    "main.js": "/static/js/main.2abd5816.js",
-    "static/js/787.55044d8e.chunk.js": "/static/js/787.55044d8e.chunk.js",
+    "main.js": "/static/js/main.9c3dec4f.js",
     "static/media/gears.png": "/static/media/gears.6088c81f98502ef3759b.png",
     "static/media/full_stack.png": "/static/media/full_stack.e473f920580cd89f2f00.png",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.c1d7432ee75fa194e499.woff",
@@ -24,11 +23,10 @@
     "static/media/pytorch_logo.svg": "/static/media/pytorch_logo.aa569f129173db86b71881fdab191786.svg",
     "index.html": "/index.html",
     "main.36e3ed75.css.map": "/static/css/main.36e3ed75.css.map",
-    "main.2abd5816.js.map": "/static/js/main.2abd5816.js.map",
-    "787.55044d8e.chunk.js.map": "/static/js/787.55044d8e.chunk.js.map"
+    "main.9c3dec4f.js.map": "/static/js/main.9c3dec4f.js.map"
   },
   "entrypoints": [
     "static/css/main.36e3ed75.css",
-    "static/js/main.2abd5816.js"
+    "static/js/main.9c3dec4f.js"
   ]
 }
