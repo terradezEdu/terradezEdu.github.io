@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.36e3ed75.css",
-    "main.js": "/static/js/main.dd185649.js",
+    "main.js": "/static/js/main.2abd5816.js",
     "static/js/787.55044d8e.chunk.js": "/static/js/787.55044d8e.chunk.js",
     "static/media/gears.png": "/static/media/gears.6088c81f98502ef3759b.png",
     "static/media/full_stack.png": "/static/media/full_stack.e473f920580cd89f2f00.png",
@@ -15,6 +15,7 @@
     "static/media/experis_manpower.jpg": "/static/media/experis_manpower.7dcfec07508304814ab0.jpg",
     "static/media/uv_logo.svg": "/static/media/uv_logo.a84886fe54fd29ae33840c5fe92ebd50.svg",
     "static/media/telefonica_logo.webp": "/static/media/telefonica_logo.4b01b6f7d27a0dbe2efc.webp",
+    "static/media/nestle_logo01.webp": "/static/media/nestle_logo01.a7866cdd941b939e8208.webp",
     "static/media/unity_logo.png": "/static/media/unity_logo.bc80bd51609e0dfa24e1.png",
     "static/media/Nestle.jpg": "/static/media/Nestle.2a52bb30efe0dfd2ef62.jpg",
     "static/media/uoc_new.png": "/static/media/uoc_new.15d928b6e73fcbb09833.png",
@@ -23,11 +24,11 @@
     "static/media/pytorch_logo.svg": "/static/media/pytorch_logo.aa569f129173db86b71881fdab191786.svg",
     "index.html": "/index.html",
     "main.36e3ed75.css.map": "/static/css/main.36e3ed75.css.map",
-    "main.dd185649.js.map": "/static/js/main.dd185649.js.map",
+    "main.2abd5816.js.map": "/static/js/main.2abd5816.js.map",
     "787.55044d8e.chunk.js.map": "/static/js/787.55044d8e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.36e3ed75.css",
-    "static/js/main.dd185649.js"
+    "static/js/main.2abd5816.js"
   ]
 }
