@@ -45,7 +45,7 @@ export default function ProjectsL() {
                                     <span>
                                        <h6>
                                             Deploy Deep learning model (XGBOOST) to measure the customer
-                                            satisfaction in Chile, Brazil and Unite Kingdom
+                                            satisfaction in Chile, Brazil and Unite Kingdom.
                                         </h6>
                                         <h6>
                                             Crowd sourcing data analysis with NPL to identify weak points in the mobile
@@ -111,7 +111,7 @@ export default function ProjectsL() {
                                     <span>
                                         <h6>
                                         Issues Prediction in the mobile network using deep learning algorithms
-                                        (Autoencoders + XGBOOST)
+                                        (Autoencoders + XGBOOST).
                                         </h6>
                                     </span>
                                 </div>
@@ -138,7 +138,7 @@ export default function ProjectsL() {
                                     <h5>Data Scientist - Pormotional event analysis</h5>
                                     <span>
                                         <h6>
-                                        Time series analysis and causal impact of promotional events
+                                        Time series analysis and causal impact of promotional events.
                                         </h6>
                                     </span>
                                 </div>
