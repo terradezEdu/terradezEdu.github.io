@@ -33,7 +33,7 @@ export default function Researchs() {
                         </div>
                         <div className="col">
                           <span className='research'>
-                            <img  className=' float-start rounded-circle mx-auto d-none d-md-block' src={phd} alt='phd'
+                            <img  className=' float-start rounded-circle mx-auto d-none d-lg-block' src={phd} alt='phd'
                                   style={{maxWidth: '15%', fill: 'blue'}}
                               />
                             {isDesktop ? (
@@ -56,10 +56,10 @@ export default function Researchs() {
                        problems related to pathfinders optimization, simulation of complicated behaviours with artifical neuronal networks (ANN) and the scale of 
                        these problems in terms of computational cost and time are giant (crowds can be more than 100 ANN trining at the same time)</h4>
                       
-                      <img  className='float-start rounded-circle mx-auto d-none d-md-block' src={unity} alt='unity'
+                      <img  className='float-start rounded-circle mx-auto d-none d-lg-block' src={unity} alt='unity'
                           style={{maxWidth: '3%', marginTop: '30px'}}
                       />
-                        <img  className='float-start rounded-circle mx-auto d-none d-md-block' src={pytorch} alt='pytorch'
+                        <img  className='float-start rounded-circle mx-auto d-none d-lg-block' src={pytorch} alt='pytorch'
                           style={{maxWidth: '1.5%', marginTop: '35px', marginRight: '15px'}}
                       /> 
                       <span>
