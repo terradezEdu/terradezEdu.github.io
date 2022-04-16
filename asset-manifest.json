@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/web-personal-edu/static/css/main.ccb197f6.css",
+    "main.js": "/web-personal-edu/static/js/main.8f72c1ca.js",
+    "static/js/787.55044d8e.chunk.js": "/web-personal-edu/static/js/787.55044d8e.chunk.js",
+    "static/media/gears.png": "/web-personal-edu/static/media/gears.6088c81f98502ef3759b.png",
+    "static/media/full_stack.png": "/web-personal-edu/static/media/full_stack.e473f920580cd89f2f00.png",
+    "static/media/bootstrap-icons.woff?": "/web-personal-edu/static/media/bootstrap-icons.c1d7432ee75fa194e499.woff",
+    "static/media/mat.webp": "/web-personal-edu/static/media/mat.c1af5083c47fe2dadacd.webp",
+    "static/media/bootstrap-icons.woff2?": "/web-personal-edu/static/media/bootstrap-icons.a13b815539b49de48d23.woff2",
+    "static/media/crowd.svg": "/web-personal-edu/static/media/crowd.814074827612ad7b3930ff6ae68773ab.svg",
+    "static/media/machine-learning.svg": "/web-personal-edu/static/media/machine-learning.e694116a612f900defd4fa3e2c8a0ae1.svg",
+    "static/media/saptools_logo.jpg": "/web-personal-edu/static/media/saptools_logo.5c6a4d8f96ebcff2dd6d.jpg",
+    "static/media/avatar.svg": "/web-personal-edu/static/media/avatar.608486efa2adc997b10dc5b55dc00171.svg",
+    "static/media/experis_manpower.jpg": "/web-personal-edu/static/media/experis_manpower.7dcfec07508304814ab0.jpg",
+    "static/media/uv_logo.svg": "/web-personal-edu/static/media/uv_logo.a84886fe54fd29ae33840c5fe92ebd50.svg",
+    "static/media/telefonica_logo.webp": "/web-personal-edu/static/media/telefonica_logo.4b01b6f7d27a0dbe2efc.webp",
+    "static/media/unity_logo.png": "/web-personal-edu/static/media/unity_logo.bc80bd51609e0dfa24e1.png",
+    "static/media/Nestle.jpg": "/web-personal-edu/static/media/Nestle.2a52bb30efe0dfd2ef62.jpg",
+    "static/media/uoc_new.png": "/web-personal-edu/static/media/uoc_new.15d928b6e73fcbb09833.png",
+    "static/media/rock_climbing.svg": "/web-personal-edu/static/media/rock_climbing.3b5828f07d14d3f9132cf441db790af7.svg",
+    "static/media/robots_phd.svg": "/web-personal-edu/static/media/robots_phd.83a714500f056056dd21aca0929812f7.svg",
+    "static/media/pytorch_logo.svg": "/web-personal-edu/static/media/pytorch_logo.aa569f129173db86b71881fdab191786.svg",
+    "index.html": "/web-personal-edu/index.html",
+    "main.ccb197f6.css.map": "/web-personal-edu/static/css/main.ccb197f6.css.map",
+    "main.8f72c1ca.js.map": "/web-personal-edu/static/js/main.8f72c1ca.js.map",
+    "787.55044d8e.chunk.js.map": "/web-personal-edu/static/js/787.55044d8e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccb197f6.css",
+    "static/js/main.8f72c1ca.js"
+  ]
+}
