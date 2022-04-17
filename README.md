@@ -1,10 +1,12 @@
-# Getting Started with Create React App
+# My first project with ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). For the CSS style I used the framework Bootstrap 5
 
-## Available Scripts
+## Th objective
 
-In the project directory, you can run:
+This project aimed to test all I had learned in the online courses about web development. This personal website has more than 300 lines of code (mostly in jsx) 
+
+## Using this repo 
 
 ### `npm start`
 
@@ -68,3 +70,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
