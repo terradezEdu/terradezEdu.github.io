@@ -1,4 +1,4 @@
-# My first project with ReactJS
+# My first project with ReactJS my personal web site (Edu Terrádez) 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). For the CSS style I used the framework Bootstrap 5
 
